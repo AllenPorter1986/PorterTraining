@@ -2,6 +2,18 @@
   'use strict';
 
   angular
-    .module('porterTraining', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ngRoute', 'ui.bootstrap', 'toastr']);
+    .module('porterTraining', 
+    [
+      'porterTraining.services',
+      'ngAnimate', 
+      'ngCookies', 
+      'ngTouch', 
+      'ngSanitize', 
+      'ngMessages', 
+      'ngAria',     
+      'ngRoute', 
+      'ui.bootstrap', 
+      'toastr'
+    ]);
 
 })();
